@@ -12,7 +12,7 @@ path_to_root_directory = path_to_root_directory[:7] + get_user + path_to_root_di
 
 print(path_to_root_directory) #Prints to make sure it is correct
 
-#Inserts user name into drop directory path (where the back-up is going to be stored).
+#Inserts user name into Dropbox directory path (where the back-up is going to be stored).
 path_to_db_directory = "/Users//Dropbox/BUT"
 path_to_db_directory = path_to_db_directory[:7] + get_user + path_to_db_directory[7:]
 
